@@ -1,78 +1,113 @@
- <!-- O que mudou do HTML 4 para o HTML 5 ?-->
-  <!-- A principal mudança foi a inclusão de elementos semânticos e melhor suporte a multimídia -->
-   <!-- tambem podemos dizer que a interatividade com o usuário foi melhorada -->
-    <!-- tambem podemos dizer que a interatividade com o usuário foi melhorada -->
-     <!-- O HTML 5 é mais flexível e fácil de usar do que o HTML 4 -->
-      <!-- O HTML 5 é mais compatível com dispositivos móveis do que o HTML 4 -->
-       <!-- O HTML 5 é mais seguro do que o HTML 4 -->
-        <!-- O HTML 5 é mais rápido do que o HTML 4 -->
-         <!-- O HTML 5 é mais acessível do que o HTML 4 -->
-          <!-- O HTML 5 é mais fácil de aprender do que o HTML 4 -->
-           <!-- O HTML 5 é mais fácil de usar do que o HTML 4 -->
-            <!-- O HTML 5 é mais fácil de depurar do que o HTML 4 -->
-             <!-- O HTML 5 é mais fácil de manter do que o HTML 4 -->
-              <!-- O HTML 5 é mais fácil de atualizar do que o HTML 4 -->
-               <!-- O HTML 5 é mais fácil de integrar com outras tecnologias do que o HTML 4 -->
-                <!-- O HTML 5 é mais fácil de usar com CSS e JavaScript do que o HTML 4 -->
-                 <!-- O HTML 5 é mais fácil de usar com bancos de dados do que o HTML 4 -->
-                  <!-- O HTML 5 é mais fácil de usar com APIs do que o HTML 4 -->
-                   <!-- O HTML 5 é mais fácil de usar com frameworks do que o HTML 4 -->
-                    <!-- O HTML 5 é mais fácil de usar com bibliotecas do que o HTML 4 -->
-                     <!-- O HTML 5 é mais fácil de usar com ferramentas de desenvolvimento do que o HTML 4 -->
-                      <!-- O HTML 5 é mais fácil de usar com editores de código do que o HTML 4 -->
-                       <!-- O HTML 5 é mais fácil de usar com sistemas de controle de versão do que o HTML 4 -->
-                        <!-- O HTML 5 é mais fácil de usar com sistemas de gerenciamento de conteúdo do que o HTML 4 -->
-                         <!-- O HTML 5 é mais fácil de usar com sistemas de comércio eletrônico do que o HTML 4 -->
-                          <!-- O HTML 5 é mais fácil de usar com sistemas de gerenciamento de banco de dados do que o HTML 4 -->
-                           <!-- O HTML 5 é mais fácil de usar com sistemas de gerenciamento de servidores web do que o HTML 4 -->
-                            <!-- O HTML 5 é mais fácil de usar com sistemas operacionais do que o HTML 4 -->
-                             <!-- O HTML 5 FAZ TUDO QUE O HTML 4 FAZ, SÓ QUE FAZ MAIS COISAS E FAZ MUITOO MELHOR-->
-
+<!-- ESTRUTURA DO DOCUMENTO -->
+ <!--Aqui com a ajuda do claude, foi feito um doxumento HTML5 quase que autoexplicativo, tem um pouco de interação !-->
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="UMA MENSAGEM INCRÍVEL PARA VOCÊ!">
-    <title>Teste do HTML 2</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-
-        /* Estilos CSS */
-        .box {
-            box-shadow: 0px 12px 32px 0px rgb(21, 74, 196);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title> Fundamentos Web </title>
 </head>
 <body>
-    <header>
-        <h1>Bem-vindo! Aqui é somente um teste para começar a mexer com CSS novamente</h1>
-        <nav>
-            <!-- Menu de navegação -->
-        </nav>
-    </header>
 
-    <main>
-        <section>
-            <h2>MENSAGEM MUITOO BOA AQUI </h2>
-            <p> O que você pensou sobre isso? </p>
-            <style>
+<!-- SEMÂNTICA DE PÁGINA -->
+<header>
+  <nav>
+    <a href="#texto">Texto</a>
+    <a href="#listas">Listas</a>
+  </nav>
+</header>
 
-        h2 {
-    color: rgb(21, 74, 196);
-    border-bottom: 2px solid rgb(21, 74, 196);
-    padding-bottom: 6px;
-}
+<main>
+<article>
+
+<!-- TÍTULOS -->
+<h1>Sou o título principal</h1>
+<h2>Sou um subtítulo</h2>
+<h3>Sou um título de seção</h3>
+
+<!-- TEXTO -->
+<p>Sou um parágrafo. Dentro de mim
+  podem existir <strong>negrito</strong>,
+  <em>itálico</em>, <mark>destaque</mark>,
+  <code>código inline</code>,
+  <del>deletado</del> e
+  <ins>inserido</ins>.
+</p>
+
+<p>H<sub>2</sub>O e x<sup>2</sup>
+  usam sub e sup.</p>
+
+<abbr title="HyperText Markup Language">
+  HTML</abbr> usa abbr.
+
+<blockquote>
+  Sou uma citação em bloco.
+</blockquote>
+
+<hr>
+
+<!-- LISTAS -->
+<ul>
+  <li>Lista não ordenada com a tag ul</li>
+  <li>Sem numeração</li>
+</ul>
+
+<ol>
+  <li>Lista ordenada com a tag ol</li>
+  <li>Com numeração</li>
+</ol>
 
 
-            </style>
-        </section>
-    </main>
+<!-- MÍDIA -->
+<figure>
+  <img src="foto.jpg"
+       alt="Não tem nada aqui">
+  <figcaption>
+    Legenda da imagem e sim, continua sem ter nada aqui.
+  </figcaption>
+</figure>
 
-    <footer>
-        <p>&copy; 2026 Todos os direitos inexistentes.</p>
-    </footer>
+<!-- TABELA -->
+<table>
+  <thead><tr>
+    <th>Tag</th><th>Uso</th>
+  </tr></thead>
+  <tbody><tr>
+    <td>&lt;p></td>
+    <td>Parágrafo</td>
+  </tr></tbody>
+</table>
 
-    <!-- <script src="script.js"></script> -->
+<!-- SEMÂNTICA EXTRA -->
+<section>
+  Sou uma seção temática.
+</section>
+
+<aside>
+  Sou conteúdo complementar (aside).
+</aside>
+
+<details>
+  <summary>Clique para expandir</summary>
+  Sou o conteúdo oculto do details, estou embaixo da tag summary.
+</details>
+
+<!-- FORMULÁRIO -->
+<form>
+  <label>Nome:
+    <input type="text"
+           placeholder="Digite aqui">
+  </label>
+  
+  <textarea rows="4">Sou uma area de texto chamada: textarea</textarea>
+  <button type="submit">Enviar</button>
+</form>
+
+</article>
+</main>
+
+<footer>
+  Sou o rodapé (não me usam muitas vezes) — &copy; 2025 Fundamentos Web.
+</footer>
+
 </body>
 </html>
