@@ -7,12 +7,8 @@
 ---
 
 ## Índice 
-    HTML5_PrincipaisTAGS.html">Tags principais do HTML5
-    
-    HTML4_x_HTML5.html">HTML4 vs HTML5
-    
-    HTML5_Introducao_teste.html">Introdução e teste
-     
-    HTML5_%2BCSS.html">Introdução ao HTML5 + CSS
-    
-    Subindo_PAG_HTML.html">Subindo página HTML
+- [Tags principais do HTML5](HTML5_PrincipaisTAGS.html)
+- [HTML4 vs HTML5](HTML4_x_HTML5.html)
+- [Introdução e teste](HTML5_Introducao_teste.html)
+- [Introdução ao HTML5 + CSS](HTML5_%2BCSS.html)
+- [Subindo página HTML](Subindo_PAG_HTML.html)
